@@ -11,7 +11,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 h1 {
@@ -26,12 +25,27 @@ h3 {
   opacity: 0.7;
 }
 p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+/* p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: right;
+} */
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 .navigation-links {
   display: flex;
