@@ -10,10 +10,11 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
-h1 {
+h4 {
   font-size: 96px;
 }
 h2 {
@@ -23,6 +24,12 @@ h3 {
   margin-top: 10px;
   font-size: 34px;
   opacity: 0.7;
+}
+h1 {
+  font-weight: light;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 50px 100px;
 }
 p {
   font-size: 18px;
